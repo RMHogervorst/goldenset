@@ -1,0 +1,9 @@
+file: cars_mpg.rds
+file_size: 3033
+pin_hash: d18ecf2e08b5311d
+type: rds
+title: 'cars_mpg: a pinned list'
+description: A rpart regression modeling workflow
+created: 20221121T142337Z
+api_version: 1.0
+user: []
