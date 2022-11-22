@@ -65,8 +65,8 @@ measurements <- metric_set(
 ## and we set the criteria here
 criteria <- data.frame(
   .metric = c("rmse","huber_loss","mape"),
-  warn = c(4.5, 4, 17),
-  fail = c(5, 4.5, 18)
+  warn = c(4.5, 4, 18),
+  fail = c(5, 4.5, 19)
 )
 
 # augment, adds the prediction result column (.pred) to the original data.
