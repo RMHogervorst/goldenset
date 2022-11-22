@@ -27,11 +27,11 @@ jobs:
     name: Build Docker image and push to repositories
     # run only when code is compiling and tests are passing
     runs-on: ubuntu-latest
+    needs: verify
     # steps to perform in job
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        if: jobs.verify.outcome == 'success'
 
       # setup Docker buld action
       - name: Set up Docker Buildx
